@@ -10,13 +10,13 @@ export default function Logon() {
   return (
     <div className="logon-container">
       <section className="form">
-        <img src={logoImg} alt="Be The Hero"></img>
+        <img src={logoImg} alt="Be The Heroe"></img>
 
         <form>
-          <h1>Faça seu logon</h1>
+          <h1>Faça seu login</h1>
 
           <input placeholder="Sua ID" />
-          <button type="submit">Entrar</button>
+          <button className="button" type="submit">Entrar</button>
 
           <a href="/register">
             <FiLogIn size={16} color="#E02041" />
